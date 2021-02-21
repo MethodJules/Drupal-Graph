@@ -1,0 +1,66 @@
+nlp_search.filter:
+  path: '/nlp-search/results/filter/{search_content}'
+  defaults:
+    _controller: '\Drupal\nlp_search\Controller\SearchController::filter'
+    _title: 'Semantic Search Results'
+  requirements:
+    _permission: 'access content'
+
+nlp_search.fulltext:
+  path: '/nlp-search/results/fulltext/{search_content}'
+  defaults:
+    _controller: '\Drupal\nlp_search\Controller\SearchController::fulltext'
+    _title: 'Semantic Search Results'
+  requirements:
+    _permission: 'access content'
+
+nlp_search.graph_view:
+  path: '/nlp-search/graph-view/{ent_text}/{ent_ner}'
+  defaults:
+    _controller: '\Drupal\nlp_search\Controller\GraphController::content'
+    _title: 'Semantic Search view Graph'
+  requirements:
+    _permission: 'access content'
+
+nlp_search.search_form:
+  path: '/nlp-search'
+  defaults:
+    _form: 'Drupal\nlp_search\Form\SearchForm'
+    _title: 'Semantic Search'
+  requirements:
+    _permission: 'access content'
+
+
+nlp_search.settings_form:
+  path: '/admin/config/search/nlpsearch'
+  defaults:
+    _form: 'Drupal\nlp_search\Form\SettingsForm'
+    _title: 'Settings for NLP Search'
+  requirements:
+    _permission: 'administer site configuration'
+
+nlp_search.edit_entities_form:
+  path: '/node/{node}/entities-edit'
+  defaults:
+    _form: 'Drupal\nlp_search\Form\EditEntitiesForm'
+    _title: 'Edit Entities'
+  requirements:
+    _permission: 'administer site configuration'
+    _custom_access: '\Drupal\nlp_search\Controller\CheckAccessController::checkAccess'
+
+nlp_search.add_entity_form:
+  path: '/node/{node}/entity-add'
+  defaults:
+    _form: 'Drupal\nlp_search\Form\AddEntityForm'
+    _title: 'Add Entity'
+  requirements:
+    _permission: 'administer site configuration'
+    _custom_access: '\Drupal\nlp_search\Controller\CheckAccessController::checkAccess'
+
+nlp_search.autocomplete.entity.type:
+  path: '/nlp-search/autocomplete'
+  defaults:
+    _controller: 'Drupal\nlp_search\Controller\AutocompleteController::handleAutocomplete'
+    _format: json
+  requirements:
+    _permission: 'access content'

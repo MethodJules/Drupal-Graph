@@ -1,0 +1,322 @@
+<?php
+
+use Drupal\node\Entity\Node;
+
+//Wenn eine Node gespeichert wird, soll diese Node neu indexiert werden. Dafür die Informationen neu exportieren.
+function nlp_search_entity_insert(Drupal\Core\Entity\EntityInterface $entity) {
+    export_information($entity);
+}
+
+//Wenn eine Node gespeichert wird, soll diese Node neu indexiert werden. Dafür die Informationen neu exportieren.
+function nlp_search_entity_update(Drupal\Core\Entity\EntityInterface $entity) {
+    export_information($entity);
+}
+
+//Wird eine Node gelöscht, so muss diese auch in Neo4j gelöscht werden.
+function nlp_search_entity_delete(Drupal\Core\Entity\EntityInterface $entity) {
+
+    if (method_exists($entity, 'getType')) {
+        $content_type = $entity->getType();
+        $nid = $entity->id();
+
+        //Falls in den Dateien die Node vor kommt, aus diesen Dateien entfernen.
+        delete_from_files('nodes_export.json', $content_type, $nid);
+        delete_from_files('nodes_export_process.json', $content_type, $nid);
+        delete_from_files('nodes_failed.json', $content_type, $nid);
+
+        $config = \Drupal::config('nlp_search.settings');
+        $saved_python_flask_url = $config->get('nlp_search_basic_python_flask_url');
+
+        if (!empty($saved_python_flask_url)) {
+            if ($saved_python_flask_url[strlen($saved_python_flask_url) - 1] != '/') {
+                $saved_python_flask_url .= '/';
+            }
+
+            //cUrl Aufruf an die Python Flask Anwendung, die die Node aus Neo4j entfernt.
+            $ch = curl_init();
+            curl_setopt($ch, CURLOPT_URL, $saved_python_flask_url . "del-node");
+            curl_setopt($ch, CURLOPT_CONNECTTIMEOUT, 10);
+            curl_setopt($ch, CURLOPT_TIMEOUT, 10);
+            curl_setopt($ch, CURLOPT_POST, 1);
+            curl_setopt($ch, CURLOPT_POSTFIELDS,
+                http_build_query(array('node_id' => $nid)));
+
+            curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+            $response = curl_exec($ch);
+
+            if ($response === FALSE) {
+                \Drupal::messenger()->addMessage(curl_error($ch), 'error');
+            } else {
+                $response = json_decode($response, true);
+
+                if ($response['type'] == 'error') {
+                    \Drupal::messenger()->addMessage($response['result'], 'error');
+                    \Drupal::messenger()->addMessage(t('Could not delete node @node_title from Neo4j DB', ['@node_title' => $entity->label()]), 'error');
+                }
+            }
+
+            curl_close($ch);
+        } else {
+            \Drupal::messenger()->addMessage(t('Missing configuration python flask url'), 'error');
+        }
+    }
+
+}
+
+//Beim Rendern der Node soll ein Graph mit den Entitäten und Relationen angezeigt werden.
+function nlp_search_entity_view_alter(array &$build, \Drupal\Core\Entity\EntityInterface $entity, \Drupal\Core\Entity\Display\EntityViewDisplayInterface $display) {
+
+    if (method_exists($entity, 'bundle')) {
+        $config = \Drupal::config('nlp_search.settings');
+        $saved_content_types = json_decode($config->get('nlp_search_content_types'), true);
+
+        //Den Graphen nur auf Nodes rendern, für die der Content Type im Administrationsbereich definiert wurde.
+        $node_bundle = array();
+        foreach ($saved_content_types as $setting) {
+            if (!in_array($setting['content_type'], $node_bundle)) {
+                $node_bundle[] = $setting['content_type'];
+            }
+        }
+
+        //Ist der Content Type korrekt, die Entitäten und Relationen von der Python Anwendung laden, Daten aufbereiten
+        //und an Javascript zur weiteren Verarbeitung und Darstellung übergeben.
+        if (in_array($entity->bundle(), $node_bundle)) {
+
+            $config = \Drupal::config('nlp_search.settings');
+            $saved_python_flask_url = $config->get('nlp_search_basic_python_flask_url');
+            if (!empty($saved_python_flask_url)) {
+                if ($saved_python_flask_url[strlen($saved_python_flask_url) - 1] != '/') {
+                    $saved_python_flask_url .= '/';
+                }
+
+                //cUrl Aufruf, um die Entitäten und Relationen für die aktuelle Drupal Node ID zu laden.
+                $ch = curl_init();
+                curl_setopt($ch, CURLOPT_URL, $saved_python_flask_url . "get-entities-relations-by-id");
+                curl_setopt($ch, CURLOPT_CONNECTTIMEOUT, 10);
+                curl_setopt($ch, CURLOPT_TIMEOUT, 10);
+                curl_setopt($ch, CURLOPT_POST, 1);
+                curl_setopt($ch, CURLOPT_POSTFIELDS,
+                    http_build_query(array('node_id' => $entity->id())));
+
+                curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+                $response = curl_exec($ch);
+
+
+                if ($response === FALSE) {
+                    \Drupal::messenger()->addMessage(curl_error($ch), 'error');
+                } else {
+                    $response = json_decode($response, true);
+
+                    if ($response['type'] == 'success') {
+                        if (count($response['result']['entities']) > 0) {
+
+                            //Vis erwartet die Entitäten und Relationen in einer bestimmten Form. Ein Array für Entitäten
+                            //und Relationen entsprechend aufbereiten.
+                            $entities = array();
+                            $relations = array();
+
+                            $added_entities = array();
+
+                            $label = $entity->label();
+
+                            //Label kürzen, da ansonsten die Knoten im Graphen zu riesig werden.
+                            if (strlen($label) > 10) {
+                                $label = mb_substr($label, 0, 10, 'UTF-8') . '...';
+                            }
+
+                            //Hauptknoten, der die Node repräsentiert, hinzufügen.
+                            $entities[] = [
+                                'id' => 1,
+                                'title' => $entity->label() . '<br>Root Node',
+                                'label' => $label,
+
+                                'color' => '#537295',
+                                'ent_ner' => 'root_node',
+                                'ent_text' => $entity->label(),
+                                'drupal_id' => $entity->id(),
+                            ];
+
+                            $added_entities[$entity->label()] = 1;
+
+                            //Alle weiteren Entitäten, die innerhalb der Node vorkommen, hinzufügen.
+                            $counter = 2;
+                            foreach ($response['result']['entities'] as $resp) {
+                                $label = $resp['ent_text'];
+
+                                if (strlen($label) > 10) {
+                                    $label = mb_substr($label, 0, 10, 'UTF-8') . '...';
+                                }
+                                $entities[] = [
+                                    'id' => $counter,
+                                    'title' => $resp['ent_text'] . '<br>' . $resp['ent_ner'],
+                                    'label' => $label,
+                                    'color' => '#cfccaf',
+                                    'ent_text' => $resp['ent_text'],
+                                    'ent_ner' => $resp['ent_ner'],
+                                ];
+
+                                $added_entities[$resp['ent_text']] = $counter;
+                                $relations[] = [
+                                    'from' => 1,
+                                    'to' => $counter,
+                                ];
+                                $counter++;
+                            }
+
+                            $added_relations = array();
+
+                            //Relationen zwischen den Entitäten hinzufügen.
+                            foreach ($response['result']['relations'] as $resp) {
+                                $rel_exist = false;
+
+                                foreach ($added_relations[$resp['rel']] as $add_rel) {
+                                    if (in_array($resp['ent_text'], $add_rel) && in_array($resp['ent2_text'], $add_rel)) {
+                                        $rel_exist = true;
+                                        break;
+                                    }
+                                }
+
+                                if (!$rel_exist) {
+                                    $relations[] = [
+                                        'from' => $added_entities[$resp['ent_text']],
+                                        'to' => $added_entities[$resp['ent2_text']],
+                                        'label' => $resp['rel']
+                                    ];
+
+                                    $added_relations[$resp['rel']][] = [$resp['ent_text'], $resp['ent2_text']];
+                                }
+                            }
+
+                            $build['network_graph'] = array(
+                                '#markup' => '<div id="nlp-network-graph"></div>',
+                                '#weight' => 99
+                            );
+
+                            //Librarys laden und Arrays an Javascript übergeben.
+                            $build['#attached']['library'][] = 'nlp_search/nlpsearch_vis';
+                            $build['#attached']['drupalSettings']['nlp_search']['entities'] = $entities;
+                            $build['#attached']['drupalSettings']['nlp_search']['relations'] = $relations;
+
+                        }
+                    } else {
+                        \Drupal::messenger()->addMessage($response['result'], 'error');
+                    }
+                }
+                curl_close($ch);
+            } else {
+                \Drupal::messenger()->addMessage(t('Missing configuration python flask url'), 'error');
+            }
+
+        }
+    }
+}
+
+//Funktion öffnet eine Datei, löscht den Eintrag für Content Type und speichert die Datei wieder ab.
+function delete_from_files($filename, $content_type, $nid) {
+    $mod_path = drupal_get_path('module', 'nlp_search');
+    $export_path = $mod_path . '/nlp_python';
+    $export_file = $export_path . '/' . $filename;
+
+    $file = "";
+    if (file_exists($export_file)) {
+        $file = file_get_contents($export_file);
+        $nodes_arr = json_decode($file, true);
+
+        if (isset($nodes_arr[$content_type][$nid])) {
+            unset($nodes_arr[$content_type][$nid]);
+        }
+
+        file_put_contents($export_file, json_encode($nodes_arr, JSON_UNESCAPED_UNICODE));
+    }
+}
+
+//Die Funktion exportiert zu einer gegeben Node die gespeicherten Werte der Felder.
+function export_information($entity) {
+
+    if (method_exists($entity, 'getType')) {
+        $config = \Drupal::config('nlp_search.settings');
+        $saved_content_types = json_decode($config->get('nlp_search_content_types'), true);
+
+        $node_bundle = array();
+        foreach ($saved_content_types as $setting) {
+            if (!in_array($setting['content_type'], $node_bundle)) {
+                $node_bundle[] = $setting['content_type'];
+            }
+        }
+
+        //Die Informationen sollen nur exportiert werden, wenn der Content Type der Node einem der Content Types entspricht,
+        //die im Administrationsbereich dieses Moduls definiert wurden.
+        if (in_array($entity->getType(), $node_bundle)) {
+
+            $settings_revised = array();
+
+            //Datei für den Export öffnen, bei der die Node hinzugefügt wird.
+            $mod_path = drupal_get_path('module', 'nlp_search');
+            $export_path = $mod_path . '/nlp_python/export';
+            $export_file = $export_path . '/nodes_export.json';
+            $nodes_arr = array();
+
+            if (!is_dir($export_path)) {
+                mkdir($export_path);
+            }
+
+            $file = "";
+            if (file_exists($export_file)) {
+                $file = file_get_contents($export_file);
+                $nodes_arr = json_decode($file, true);
+            }
+
+            //Array mit den Einstellungen aus der Datenbank umändern, damit besser mit den gesetzen Einstellungen weiter
+            //gearbeitet werden kann.
+            foreach ($saved_content_types as $setting) {
+                if (!is_array($settings_revised[$setting['content_type']])) {
+                    $settings_revised[$setting['content_type']] = array();
+                }
+
+                array_push($settings_revised[$setting['content_type']], $setting['field']);
+            }
+
+
+            //Node laden
+            $content_type = $entity->getType();
+            $nid = $entity->id();
+
+            $node = Node::load($entity->id());
+
+            //Falls in der Datei für den Export noch Inhalt für diese Node ID stehen sollte, den kompletten Eintrag im
+            //Array entfernen.
+            if (isset($nodes_arr[$content_type][$nid])) {
+                unset($nodes_arr[$content_type][$nid]);
+            }
+
+            //Informationen für die Felder der Node auslesen und im Array abspeichern.
+            $created = $node->get('created')->getValue()[0]['value'];
+            $changed = $node->get('changed')->getValue()[0]['value'];
+
+            $has_content = false;
+            foreach ($settings_revised[$content_type] as $field) {
+                $node_field = $node->get($field)->getValue();
+
+                foreach ($node_field as $index => $field_entry) {
+
+                    if (!empty(trim($field_entry['value']))) {
+                        $nodes_arr[$content_type][$nid]['title'] = $node->title->value;
+                        $nodes_arr[$content_type][$nid]['fields'][$field][$index] = preg_replace('/\s+/S', " ", $field_entry['value']);
+                        $has_content = true;
+                    }
+
+                }
+            }
+
+            if ($has_content) {
+
+                $nodes_arr[$content_type][$nid]['created'] = $created;
+                $nodes_arr[$content_type][$nid]['changed'] = $changed;
+
+            }
+
+            //Die Datei mit den exportierten Nodes abspeichern.
+            file_put_contents($export_file, json_encode($nodes_arr, JSON_UNESCAPED_UNICODE));
+        }
+    }
+}

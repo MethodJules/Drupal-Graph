@@ -1,0 +1,6 @@
+name: NLP Search
+description: Search based on NLP and semantic
+package: Custom
+configure: nlp_search.settings_form
+type: module
+core: 8.x

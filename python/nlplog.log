@@ -1,0 +1,843 @@
+2020-03-20 21:18:25: Starting NLP Task
+2020-03-20 21:18:25: Copy file /app/export/nodes_export.json to /app/export/nodes_export_process.json
+2020-03-20 21:18:25: Remaining Nodes: 9
+2020-03-20 21:18:25: Node ID: 1; Title: Julien Hofer
+2020-03-21 18:45:57: Starting NLP Task
+2020-03-21 18:45:57: Remaining Nodes: 9
+2020-03-21 18:45:57: Node ID: 1; Title: Julien Hofer
+2020-03-21 18:55:42: Starting NLP Task
+2020-03-21 18:55:42: Remaining Nodes: 9
+2020-03-21 18:55:42: Node ID: 1; Title: Julien Hofer
+2020-03-21 19:01:26: Starting NLP Task
+2020-03-21 19:01:26: Remaining Nodes: 9
+2020-03-21 19:01:26: Node ID: 1; Title: Julien Hofer
+2020-03-22 20:42:22: Starting NLP Task
+2020-03-22 20:42:22: Remaining Nodes: 9
+2020-03-22 20:42:22: Node ID: 1; Title: Julien Hofer
+2020-03-23 12:11:33: Starting NLP Task
+2020-03-23 12:11:33: Remaining Nodes: 9
+2020-03-23 12:11:33: Node ID: 1; Title: Julien Hofer
+2020-03-23 12:11:39: Insert field body with content in database
+2020-03-23 15:44:19: Starting NLP Task
+2020-03-23 15:44:19: Remaining Nodes: 9
+2020-03-23 15:44:19: Node ID: 1; Title: Julien Hofer
+2020-03-23 15:51:02: Starting NLP Task
+2020-03-23 15:51:02: Remaining Nodes: 9
+2020-03-23 15:51:02: Node ID: 1; Title: Julien Hofer
+2020-03-25 20:03:08: Starting NLP Task
+2020-03-25 20:03:08: Remaining Nodes: 9
+2020-03-25 20:03:08: Node ID: 1; Title: Julien Hofer
+2020-03-25 20:20:07: Starting NLP Task
+2020-03-25 20:20:07: Remaining Nodes: 9
+2020-03-25 20:20:07: Node ID: 1; Title: Julien Hofer
+2020-03-25 20:22:41: Starting NLP Task
+2020-03-25 20:22:41: Remaining Nodes: 9
+2020-03-25 20:22:41: Node ID: 1; Title: Julien Hofer
+2020-03-25 22:48:17: Starting NLP Task
+2020-03-25 22:48:17: Remaining Nodes: 9
+2020-03-25 22:48:17: Node ID: 1; Title: Julien Hofer
+2020-03-26 08:00:23: Starting NLP Task
+2020-03-26 08:00:23: Remaining Nodes: 9
+2020-03-26 08:00:23: Node ID: 1; Title: Julien Hofer
+2020-03-26 08:01:10: Starting NLP Task
+2020-03-26 08:01:10: Remaining Nodes: 9
+2020-03-26 08:01:10: Node ID: 1; Title: Julien Hofer
+2020-03-26 08:01:57: Starting NLP Task
+2020-03-26 08:01:57: Remaining Nodes: 9
+2020-03-26 08:01:57: Node ID: 1; Title: Julien Hofer
+2020-03-26 08:54:08: Starting NLP Task
+2020-03-26 08:54:08: Remaining Nodes: 9
+2020-03-26 08:54:08: Node ID: 1; Title: Julien Hofer
+2020-03-26 08:55:06: Starting NLP Task
+2020-03-26 08:55:06: Remaining Nodes: 9
+2020-03-26 08:55:06: Node ID: 1; Title: Julien Hofer
+2020-03-26 09:20:59: Starting NLP Task
+2020-03-26 09:20:59: Remaining Nodes: 9
+2020-03-26 09:20:59: Node ID: 1; Title: Julien Hofer
+2020-03-26 13:21:18: Starting NLP Task
+2020-03-26 13:21:18: Remaining Nodes: 9
+2020-03-26 13:21:18: Node ID: 1; Title: Julien Hofer
+2020-03-26 14:31:03: Starting NLP Task
+2020-03-26 14:31:03: Remaining Nodes: 9
+2020-03-26 14:31:03: Node ID: 1; Title: Julien Hofer
+2020-03-26 14:32:12: Insert field body with content in database
+2020-03-26 14:32:14: Remaining Nodes: 8
+2020-03-26 14:32:14: Node ID: 2; Title: James Bond
+2020-03-26 16:02:11: Starting NLP Task
+2020-03-26 16:02:11: Remaining Nodes: 8
+2020-03-26 16:02:11: Node ID: 2; Title: James Bond
+2020-03-26 16:03:09: Starting NLP Task
+2020-03-26 16:03:09: Copy file /app/export/nodes_export.json to /app/export/nodes_export_process.json
+2020-03-26 16:03:09: Remaining Nodes: 9
+2020-03-26 16:03:09: Node ID: 6; Title: Go
+2020-03-26 16:03:14: Insert field body with content in database
+2020-03-26 16:03:15: Remaining Nodes: 8
+2020-03-26 16:03:15: Node ID: 7; Title: dddfdfdf
+2020-03-26 16:03:17: Insert field body with content in database
+2020-03-26 16:03:18: Remaining Nodes: 7
+2020-03-26 16:03:18: Node ID: 8; Title: Hhha
+2020-03-26 16:03:22: Insert field body with content in database
+2020-03-26 16:03:22: Remaining Nodes: 6
+2020-03-26 16:03:22: Node ID: 9; Title: gfggf
+2020-03-26 16:03:24: Insert field body with content in database
+2020-03-26 16:03:25: Remaining Nodes: 5
+2020-03-26 16:03:25: Node ID: 10; Title: Pee
+2020-03-26 16:03:28: Insert field body with content in database
+2020-03-26 16:03:28: Remaining Nodes: 4
+2020-03-26 16:03:28: Node ID: 1; Title: Julien Hofer
+2020-03-26 16:03:54: Insert field body with content in database
+2020-03-26 16:04:03: Remaining Nodes: 3
+2020-03-26 16:04:03: Node ID: 3; Title: Alan Hevner
+2020-03-26 16:04:20: Insert field body with content in database
+2020-03-26 16:04:27: Remaining Nodes: 2
+2020-03-26 16:04:27: Node ID: 5; Title: MoneyPenny
+2020-03-26 16:04:50: Insert field body with content in database
+2020-03-26 16:04:56: Remaining Nodes: 1
+2020-03-26 16:04:56: Node ID: 2; Title: James Bond
+2020-03-26 16:18:46: Starting NLP Task
+2020-03-26 16:18:46: Copy file /app/export/nodes_export.json to /app/export/nodes_export_process.json
+2020-03-26 16:18:46: Remaining Nodes: 9
+2020-03-26 16:18:46: Node ID: 6; Title: Go
+2020-03-26 16:18:51: Insert field body with content in database
+2020-03-26 16:18:52: Remaining Nodes: 8
+2020-03-26 16:18:52: Node ID: 7; Title: dddfdfdf
+2020-03-26 16:18:54: Insert field body with content in database
+2020-03-26 16:18:54: Remaining Nodes: 7
+2020-03-26 16:18:54: Node ID: 8; Title: Hhha
+2020-03-26 16:18:58: Insert field body with content in database
+2020-03-26 16:18:58: Remaining Nodes: 6
+2020-03-26 16:18:58: Node ID: 9; Title: gfggf
+2020-03-26 16:19:00: Insert field body with content in database
+2020-03-26 16:19:00: Remaining Nodes: 5
+2020-03-26 16:19:00: Node ID: 10; Title: Pee
+2020-03-26 16:19:02: Insert field body with content in database
+2020-03-26 16:19:03: Remaining Nodes: 4
+2020-03-26 16:19:03: Node ID: 1; Title: Julien Hofer
+2020-03-26 16:19:35: Insert field body with content in database
+2020-03-26 16:19:43: Remaining Nodes: 3
+2020-03-26 16:19:43: Node ID: 3; Title: Alan Hevner
+2020-03-26 16:20:02: Insert field body with content in database
+2020-03-26 16:20:03: Remaining Nodes: 2
+2020-03-26 16:20:03: Node ID: 5; Title: MoneyPenny
+2020-03-26 16:20:26: Insert field body with content in database
+2020-03-26 16:20:27: Remaining Nodes: 1
+2020-03-26 16:20:27: Node ID: 2; Title: James Bond
+2020-03-26 16:21:11: Insert field body with content in database
+2020-03-26 16:21:22: Creating search index
+2020-03-26 16:21:22: Adding manual created nodes
+2020-03-26 16:21:22: File /app/export/nodes_export_process.json is empty. Delete file.
+2020-03-26 16:21:22: No input for processing in /app/export/nodes_export.json
+2020-03-26 16:21:22: exit Task
+2020-03-26 16:21:22: No input for processing in /app/export/nodes_export.json
+2020-03-26 16:21:22: exit Task
+2020-04-27 19:06:37: Starting NLP Task
+2020-04-27 19:06:37: No input for processing in /app/export/nodes_export.json
+2020-04-27 19:06:37: exit Task
+2020-04-27 19:06:37: No input for processing in /app/export/nodes_export.json
+2020-04-27 19:06:37: exit Task
+2020-04-27 19:11:31: Starting NLP Task
+2020-04-27 19:11:31: Copy file /app/export/nodes_export.json to /app/export/nodes_export_process.json
+2020-04-27 19:11:31: Remaining Nodes: 17
+2020-04-27 19:11:31: Node ID: 3793; Title: Schupler, Zwi
+2020-04-27 19:19:55: Starting NLP Task
+2020-04-27 19:19:55: Remaining Nodes: 17
+2020-04-27 19:19:55: Node ID: 3793; Title: Schupler, Zwi
+2020-04-27 19:22:09: Starting NLP Task
+2020-04-27 19:22:09: Remaining Nodes: 17
+2020-04-27 19:22:09: Node ID: 3793; Title: Schupler, Zwi
+2020-04-27 19:24:28: Insert field field_biography with content in database
+2020-04-27 19:24:49: Remaining Nodes: 16
+2020-04-27 19:24:49: Node ID: 1702; Title: Rosenthal, Hugo (Jashuvi, Joseph)
+2020-04-27 19:32:22: Starting NLP Task
+2020-04-27 19:32:22: Remaining Nodes: 16
+2020-04-27 19:32:22: Node ID: 1702; Title: Rosenthal, Hugo (Jashuvi, Joseph)
+2020-04-27 19:34:16: Insert field field_biography with content in database
+2020-04-27 19:34:38: Remaining Nodes: 15
+2020-04-27 19:34:38: Node ID: 1587; Title: Ollendorff, Friedrich
+2020-04-27 19:35:34: Insert field field_biography with content in database
+2020-04-27 19:35:47: Remaining Nodes: 14
+2020-04-27 19:35:47: Node ID: 2197; Title: Landauer, Georg
+2020-04-27 19:36:28: Insert field field_biography with content in database
+2020-04-27 19:36:37: Remaining Nodes: 13
+2020-04-27 19:36:37: Node ID: 2221; Title: Kreutzberger, Dr. Max
+2020-04-27 19:37:10: Insert field field_biography with content in database
+2020-04-27 19:37:15: Remaining Nodes: 12
+2020-04-27 19:37:15: Node ID: 1284; Title: Lotan, Giora (née Lubinski, Georg)
+2020-04-27 19:39:29: Insert field field_biography with content in database
+2020-04-27 19:39:49: Remaining Nodes: 11
+2020-04-27 19:39:49: Node ID: 1282; Title: Senator, David Werner 
+2020-04-27 19:41:23: Insert field field_biography with content in database
+2020-04-27 19:41:38: Remaining Nodes: 10
+2020-04-27 19:41:38: Node ID: 3811; Title: Rothschild, Dr. Leopold Jehuda
+2020-04-27 19:42:18: Insert field field_biography with content in database
+2020-04-27 19:42:25: Remaining Nodes: 9
+2020-04-27 19:42:25: Node ID: 3825; Title: Ostfeld, Zvi Hermon (Hermann)
+2020-04-27 19:43:35: Insert field field_biography with content in database
+2020-04-27 19:43:52: Remaining Nodes: 8
+2020-04-27 19:43:52: Node ID: 3844; Title: Frankenstein, Carl (Karl)
+2020-04-27 19:44:48: Insert field field_biography with content in database
+2020-04-27 19:45:02: Remaining Nodes: 7
+2020-04-27 19:45:02: Node ID: 3857; Title: Rothschild, Siegfried (Pinchas)
+2020-04-27 19:45:56: Insert field field_biography with content in database
+2020-04-27 19:46:07: Remaining Nodes: 6
+2020-04-27 19:46:07: Node ID: 3884; Title: Franz Hainbach/Heinebach (Perez Uriel)
+2020-04-27 19:46:48: Insert field field_biography with content in database
+2020-04-27 19:46:54: Remaining Nodes: 5
+2020-04-27 19:46:54: Node ID: 3896; Title: Rund, Ernst (Yaacov)
+2020-04-27 19:47:13: Insert field field_biography with content in database
+2020-04-27 19:47:16: Remaining Nodes: 4
+2020-04-27 19:47:16: Node ID: 3900; Title: Hirsch, Siegfried (Shimon)
+2020-04-27 19:48:31: Insert field field_biography with content in database
+2020-04-27 19:48:48: Remaining Nodes: 3
+2020-04-27 19:48:48: Node ID: 3944; Title: Brachiahu (Borochov), Dr. Mordechai
+2020-04-27 19:50:43: Insert field field_biography with content in database
+2020-04-27 19:51:01: Remaining Nodes: 2
+2020-04-27 19:51:01: Node ID: 1784; Title: Aloni, Jenny (née Rosenbaum)
+2020-04-27 19:52:27: Insert field field_biography with content in database
+2020-04-27 19:52:52: Remaining Nodes: 1
+2020-04-27 19:52:52: Node ID: 1835; Title: Avneri, Bruria (born Heymann, Bertha )
+2020-04-27 19:53:34: Insert field field_biography with content in database
+2020-04-27 19:53:46: Creating search index
+2020-04-27 19:53:49: Adding manual created nodes
+2020-04-27 19:53:49: File /app/export/nodes_export_process.json is empty. Delete file.
+2020-04-27 19:53:49: No input for processing in /app/export/nodes_export.json
+2020-04-27 19:53:49: exit Task
+2020-04-27 19:53:49: No input for processing in /app/export/nodes_export.json
+2020-04-27 19:53:49: exit Task
+2020-06-25 07:52:12: Starting NLP Task
+2020-06-25 07:52:12: Copy file /app/export/nodes_export.json to /app/export/nodes_export_process.json
+2020-06-25 07:52:12: Remaining Nodes: 17
+2020-06-25 07:52:12: Node ID: 3793; Title: Schupler, Zwi
+2020-06-25 07:53:04: Starting NLP Task
+2020-06-25 07:53:04: Remaining Nodes: 17
+2020-06-25 07:53:04: Node ID: 3793; Title: Schupler, Zwi
+2020-06-25 07:54:59: Insert field field_biography with content in database
+2020-06-25 07:55:19: Remaining Nodes: 16
+2020-06-25 07:55:19: Node ID: 1702; Title: Rosenthal, Hugo (Jashuvi, Joseph)
+2020-06-25 07:57:04: Insert field field_biography with content in database
+2020-06-25 07:57:25: Remaining Nodes: 15
+2020-06-25 07:57:25: Node ID: 1587; Title: Ollendorff, Friedrich
+2020-06-25 07:58:16: Insert field field_biography with content in database
+2020-06-25 07:58:29: Remaining Nodes: 14
+2020-06-25 07:58:29: Node ID: 2197; Title: Landauer, Georg
+2020-06-25 07:59:06: Insert field field_biography with content in database
+2020-06-25 07:59:15: Remaining Nodes: 13
+2020-06-25 07:59:15: Node ID: 2221; Title: Kreutzberger, Dr. Max
+2020-06-25 07:59:45: Insert field field_biography with content in database
+2020-06-25 07:59:50: Remaining Nodes: 12
+2020-06-25 07:59:50: Node ID: 1284; Title: Lotan, Giora (née Lubinski, Georg)
+2020-06-25 08:01:56: Insert field field_biography with content in database
+2020-06-25 08:02:17: Remaining Nodes: 11
+2020-06-25 08:02:17: Node ID: 1282; Title: Senator, David Werner 
+2020-06-25 08:03:48: Insert field field_biography with content in database
+2020-06-25 08:04:03: Remaining Nodes: 10
+2020-06-25 08:04:03: Node ID: 3811; Title: Rothschild, Dr. Leopold Jehuda
+2020-06-25 08:04:44: Insert field field_biography with content in database
+2020-06-25 08:04:51: Remaining Nodes: 9
+2020-06-25 08:04:51: Node ID: 3825; Title: Ostfeld, Zvi Hermon (Hermann)
+2020-06-25 08:05:57: Insert field field_biography with content in database
+2020-06-25 08:06:12: Remaining Nodes: 8
+2020-06-25 08:06:12: Node ID: 3844; Title: Frankenstein, Carl (Karl)
+2020-06-25 08:07:01: Insert field field_biography with content in database
+2020-06-25 08:07:15: Remaining Nodes: 7
+2020-06-25 08:07:15: Node ID: 3857; Title: Rothschild, Siegfried (Pinchas)
+2020-06-25 08:08:03: Insert field field_biography with content in database
+2020-06-25 08:08:12: Remaining Nodes: 6
+2020-06-25 08:08:12: Node ID: 3884; Title: Franz Hainbach/Heinebach (Perez Uriel)
+2020-06-25 08:08:50: Insert field field_biography with content in database
+2020-06-25 08:08:55: Remaining Nodes: 5
+2020-06-25 08:08:55: Node ID: 3896; Title: Rund, Ernst (Yaacov)
+2020-06-25 08:09:13: Insert field field_biography with content in database
+2020-06-25 08:09:14: Remaining Nodes: 4
+2020-06-25 08:09:14: Node ID: 3900; Title: Hirsch, Siegfried (Shimon)
+2020-06-25 08:10:20: Insert field field_biography with content in database
+2020-06-25 08:10:35: Remaining Nodes: 3
+2020-06-25 08:10:35: Node ID: 3944; Title: Brachiahu (Borochov), Dr. Mordechai
+2020-06-25 08:12:15: Insert field field_biography with content in database
+2020-06-25 08:12:31: Remaining Nodes: 2
+2020-06-25 08:12:31: Node ID: 1784; Title: Aloni, Jenny (née Rosenbaum)
+2020-06-25 08:13:55: Insert field field_biography with content in database
+2020-06-25 08:14:18: Remaining Nodes: 1
+2020-06-25 08:14:18: Node ID: 1835; Title: Avneri, Bruria (born Heymann, Bertha )
+2020-06-25 08:14:58: Insert field field_biography with content in database
+2020-06-25 08:15:09: Creating search index
+2020-06-25 08:15:12: Adding manual created nodes
+2020-06-25 08:15:12: File /app/export/nodes_export_process.json is empty. Delete file.
+2020-06-25 08:15:12: No input for processing in /app/export/nodes_export.json
+2020-06-25 08:15:12: exit Task
+2020-06-25 08:15:12: No input for processing in /app/export/nodes_export.json
+2020-06-25 08:15:12: exit Task
+2020-06-26 18:32:37: Starting NLP Task
+2020-06-26 18:32:37: No input for processing in /app/export/nodes_export.json
+2020-06-26 18:32:37: exit Task
+2020-06-26 18:32:37: No input for processing in /app/export/nodes_export.json
+2020-06-26 18:32:37: exit Task
+2020-06-26 18:41:07: Starting NLP Task
+2020-06-26 18:41:07: Copy file /app/export/nodes_export.json to /app/export/nodes_export_process.json
+2020-06-26 18:41:07: Remaining Nodes: 17
+2020-06-26 18:41:07: Node ID: 3793; Title: Schupler, Zwi
+2020-06-26 18:43:11: Insert field field_biography with content in database
+2020-06-26 18:43:30: Remaining Nodes: 16
+2020-06-26 18:43:30: Node ID: 1702; Title: Rosenthal, Hugo (Jashuvi, Joseph)
+2020-06-26 18:45:09: Insert field field_biography with content in database
+2020-06-26 18:45:29: Remaining Nodes: 15
+2020-06-26 18:45:29: Node ID: 1587; Title: Ollendorff, Friedrich
+2020-06-26 18:46:19: Insert field field_biography with content in database
+2020-06-26 18:46:31: Remaining Nodes: 14
+2020-06-26 18:46:31: Node ID: 2197; Title: Landauer, Georg
+2020-06-26 18:47:08: Insert field field_biography with content in database
+2020-06-26 18:47:17: Remaining Nodes: 13
+2020-06-26 18:47:17: Node ID: 2221; Title: Kreutzberger, Dr. Max
+2020-06-26 18:47:45: Insert field field_biography with content in database
+2020-06-26 18:47:51: Remaining Nodes: 12
+2020-06-26 18:47:51: Node ID: 1284; Title: Lotan, Giora (née Lubinski, Georg)
+2020-06-26 18:49:49: Insert field field_biography with content in database
+2020-06-26 18:50:07: Remaining Nodes: 11
+2020-06-26 18:50:07: Node ID: 1282; Title: Senator, David Werner 
+2020-06-26 18:51:33: Insert field field_biography with content in database
+2020-06-26 18:51:47: Remaining Nodes: 10
+2020-06-26 18:51:47: Node ID: 3811; Title: Rothschild, Dr. Leopold Jehuda
+2020-06-26 18:52:24: Insert field field_biography with content in database
+2020-06-26 18:52:30: Remaining Nodes: 9
+2020-06-26 18:52:30: Node ID: 3825; Title: Ostfeld, Zvi Hermon (Hermann)
+2020-06-26 18:53:32: Insert field field_biography with content in database
+2020-06-26 18:53:47: Remaining Nodes: 8
+2020-06-26 18:53:47: Node ID: 3844; Title: Frankenstein, Carl (Karl)
+2020-06-26 18:54:36: Insert field field_biography with content in database
+2020-06-26 18:54:50: Remaining Nodes: 7
+2020-06-26 18:54:50: Node ID: 3857; Title: Rothschild, Siegfried (Pinchas)
+2020-06-26 18:55:44: Insert field field_biography with content in database
+2020-06-26 18:55:54: Remaining Nodes: 6
+2020-06-26 18:55:54: Node ID: 3884; Title: Franz Hainbach/Heinebach (Perez Uriel)
+2020-06-26 18:56:35: Insert field field_biography with content in database
+2020-06-26 18:56:39: Remaining Nodes: 5
+2020-06-26 18:56:39: Node ID: 3896; Title: Rund, Ernst (Yaacov)
+2020-06-26 18:56:58: Insert field field_biography with content in database
+2020-06-26 18:56:59: Remaining Nodes: 4
+2020-06-26 18:56:59: Node ID: 3900; Title: Hirsch, Siegfried (Shimon)
+2020-06-26 18:58:05: Insert field field_biography with content in database
+2020-06-26 18:58:20: Remaining Nodes: 3
+2020-06-26 18:58:20: Node ID: 3944; Title: Brachiahu (Borochov), Dr. Mordechai
+2020-06-26 19:00:01: Insert field field_biography with content in database
+2020-06-26 19:00:17: Remaining Nodes: 2
+2020-06-26 19:00:17: Node ID: 1784; Title: Aloni, Jenny (née Rosenbaum)
+2020-06-26 19:01:34: Insert field field_biography with content in database
+2020-06-26 19:01:55: Remaining Nodes: 1
+2020-06-26 19:01:55: Node ID: 1835; Title: Avneri, Bruria (born Heymann, Bertha )
+2020-06-26 19:02:32: Insert field field_biography with content in database
+2020-06-26 19:02:43: Creating search index
+2020-06-26 19:02:45: Adding manual created nodes
+2020-06-26 19:02:45: File /app/export/nodes_export_process.json is empty. Delete file.
+2020-06-26 19:02:45: No input for processing in /app/export/nodes_export.json
+2020-06-26 19:02:45: exit Task
+2020-06-26 19:02:45: No input for processing in /app/export/nodes_export.json
+2020-06-26 19:02:45: exit Task
+2020-06-26 20:26:03: Starting NLP Task
+2020-06-26 20:26:03: No input for processing in /app/export/nodes_export.json
+2020-06-26 20:26:03: exit Task
+2020-06-26 20:26:03: No input for processing in /app/export/nodes_export.json
+2020-06-26 20:26:03: exit Task
+2020-06-26 20:26:54: Starting NLP Task
+2020-06-26 20:26:54: Copy file /app/export/nodes_export.json to /app/export/nodes_export_process.json
+2020-06-26 20:26:54: Remaining Nodes: 17
+2020-06-26 20:26:54: Node ID: 3793; Title: Schupler, Zwi
+2020-06-26 20:48:30: Starting NLP Task
+2020-06-26 20:48:30: Remaining Nodes: 17
+2020-06-26 20:48:30: Node ID: 3793; Title: Schupler, Zwi
+2020-06-26 20:49:22: Starting NLP Task
+2020-06-26 20:49:22: Remaining Nodes: 17
+2020-06-26 20:49:22: Node ID: 3793; Title: Schupler, Zwi
+2020-06-26 20:49:57: Starting NLP Task
+2020-06-26 20:49:57: Remaining Nodes: 17
+2020-06-26 20:49:57: Node ID: 3793; Title: Schupler, Zwi
+2020-06-26 20:52:01: Insert field field_biography with content in database
+2020-06-27 05:43:21: Starting NLP Task
+2020-06-27 05:43:21: Remaining Nodes: 17
+2020-06-27 05:43:21: Node ID: 3793; Title: Schupler, Zwi
+2020-06-27 05:44:23: Insert field field_biography with content in database
+2020-06-27 05:44:26: Remaining Nodes: 16
+2020-06-27 05:44:26: Node ID: 1702; Title: Rosenthal, Hugo (Jashuvi, Joseph)
+2020-06-27 05:46:13: Insert field field_biography with content in database
+2020-06-27 05:46:42: Remaining Nodes: 15
+2020-06-27 05:46:42: Node ID: 1587; Title: Ollendorff, Friedrich
+2020-06-27 05:47:46: Insert field field_biography with content in database
+2020-06-27 05:48:04: Remaining Nodes: 14
+2020-06-27 05:48:04: Node ID: 2197; Title: Landauer, Georg
+2020-06-27 05:48:57: Insert field field_biography with content in database
+2020-06-27 05:49:07: Remaining Nodes: 13
+2020-06-27 05:49:07: Node ID: 2221; Title: Kreutzberger, Dr. Max
+2020-06-27 05:49:40: Insert field field_biography with content in database
+2020-06-27 05:49:45: Remaining Nodes: 12
+2020-06-27 05:49:45: Node ID: 1284; Title: Lotan, Giora (née Lubinski, Georg)
+2020-06-27 05:52:44: Insert field field_biography with content in database
+2020-06-27 05:53:16: Remaining Nodes: 11
+2020-06-27 05:53:16: Node ID: 1282; Title: Senator, David Werner 
+2020-06-27 05:55:33: Insert field field_biography with content in database
+2020-06-27 05:55:49: Remaining Nodes: 10
+2020-06-27 05:55:49: Node ID: 3811; Title: Rothschild, Dr. Leopold Jehuda
+2020-06-27 05:56:27: Insert field field_biography with content in database
+2020-06-27 05:56:35: Remaining Nodes: 9
+2020-06-27 05:56:35: Node ID: 3825; Title: Ostfeld, Zvi Hermon (Hermann)
+2020-06-27 05:57:36: Insert field field_biography with content in database
+2020-06-27 05:57:50: Remaining Nodes: 8
+2020-06-27 05:57:50: Node ID: 3844; Title: Frankenstein, Carl (Karl)
+2020-06-27 05:58:37: Insert field field_biography with content in database
+2020-06-27 05:58:49: Remaining Nodes: 7
+2020-06-27 05:58:49: Node ID: 3857; Title: Rothschild, Siegfried (Pinchas)
+2020-06-27 05:59:30: Insert field field_biography with content in database
+2020-06-27 05:59:40: Remaining Nodes: 6
+2020-06-27 05:59:40: Node ID: 3884; Title: Franz Hainbach/Heinebach (Perez Uriel)
+2020-06-27 06:00:14: Insert field field_biography with content in database
+2020-06-27 06:00:19: Remaining Nodes: 5
+2020-06-27 06:00:19: Node ID: 3896; Title: Rund, Ernst (Yaacov)
+2020-06-27 06:00:34: Insert field field_biography with content in database
+2020-06-27 06:00:36: Remaining Nodes: 4
+2020-06-27 06:00:36: Node ID: 3900; Title: Hirsch, Siegfried (Shimon)
+2020-06-27 06:01:47: Insert field field_biography with content in database
+2020-06-27 06:02:06: Remaining Nodes: 3
+2020-06-27 06:02:06: Node ID: 3944; Title: Brachiahu (Borochov), Dr. Mordechai
+2020-06-27 06:04:22: Insert field field_biography with content in database
+2020-06-27 06:04:53: Remaining Nodes: 2
+2020-06-27 06:04:53: Node ID: 1784; Title: Aloni, Jenny (née Rosenbaum)
+2020-06-27 06:06:38: Insert field field_biography with content in database
+2020-06-27 06:07:02: Remaining Nodes: 1
+2020-06-27 06:07:02: Node ID: 1835; Title: Avneri, Bruria (born Heymann, Bertha )
+2020-06-27 06:07:42: Insert field field_biography with content in database
+2020-10-01 09:10:25: Starting NLP Task
+2020-10-01 09:10:25: No input for processing in /app/export/nodes_export.json
+2020-10-01 09:10:25: exit Task
+2020-10-01 09:10:25: No input for processing in /app/export/nodes_export.json
+2020-10-01 09:10:25: exit Task
+2020-10-01 09:14:13: Starting NLP Task
+2020-10-01 09:14:13: Copy file /app/export/nodes_export.json to /app/export/nodes_export_process.json
+2020-10-01 09:14:13: Remaining Nodes: 17
+2020-10-01 09:14:13: Node ID: 3793; Title: Schupler, Zwi
+2020-10-01 09:25:02: Starting NLP Task
+2020-10-01 09:25:02: Remaining Nodes: 17
+2020-10-01 09:25:02: Node ID: 3793; Title: Schupler, Zwi
+2020-10-01 09:36:52: Starting NLP Task
+2020-10-01 09:36:52: Remaining Nodes: 17
+2020-10-01 09:36:52: Node ID: 3793; Title: Schupler, Zwi
+2020-10-01 09:39:14: Insert field field_biography with content in database
+2020-10-01 09:39:48: Remaining Nodes: 16
+2020-10-01 09:39:48: Node ID: 1702; Title: Rosenthal, Hugo (Jashuvi, Joseph)
+2020-10-01 09:44:16: Insert field field_biography with content in database
+2020-10-01 09:44:49: Remaining Nodes: 15
+2020-10-01 09:44:49: Node ID: 1587; Title: Ollendorff, Friedrich
+2020-10-01 09:47:01: Insert field field_biography with content in database
+2020-10-01 09:47:22: Remaining Nodes: 14
+2020-10-01 09:47:22: Node ID: 2197; Title: Landauer, Georg
+2020-10-01 09:49:11: Insert field field_biography with content in database
+2020-10-01 09:49:23: Remaining Nodes: 13
+2020-10-01 09:49:23: Node ID: 2221; Title: Kreutzberger, Dr. Max
+2020-10-01 09:50:32: Insert field field_biography with content in database
+2020-10-01 09:50:39: Remaining Nodes: 12
+2020-10-01 09:50:39: Node ID: 1284; Title: Lotan, Giora (née Lubinski, Georg)
+2020-10-01 09:56:03: Insert field field_biography with content in database
+2020-10-01 09:56:26: Remaining Nodes: 11
+2020-10-01 09:56:26: Node ID: 1282; Title: Senator, David Werner 
+2020-10-01 10:00:14: Insert field field_biography with content in database
+2020-10-01 10:00:30: Remaining Nodes: 10
+2020-10-01 10:00:30: Node ID: 3811; Title: Rothschild, Dr. Leopold Jehuda
+2020-10-01 10:01:55: Insert field field_biography with content in database
+2020-10-01 10:02:02: Remaining Nodes: 9
+2020-10-01 10:02:02: Node ID: 3825; Title: Ostfeld, Zvi Hermon (Hermann)
+2020-10-01 10:04:37: Insert field field_biography with content in database
+2020-10-01 10:04:53: Remaining Nodes: 8
+2020-10-01 10:04:53: Node ID: 3844; Title: Frankenstein, Carl (Karl)
+2020-10-01 10:06:50: Insert field field_biography with content in database
+2020-10-01 10:07:04: Remaining Nodes: 7
+2020-10-01 10:07:04: Node ID: 3857; Title: Rothschild, Siegfried (Pinchas)
+2020-10-01 10:08:57: Insert field field_biography with content in database
+2020-10-01 10:09:11: Remaining Nodes: 6
+2020-10-01 10:09:11: Node ID: 3884; Title: Franz Hainbach/Heinebach (Perez Uriel)
+2020-10-01 10:10:28: Insert field field_biography with content in database
+2020-10-01 10:10:35: Remaining Nodes: 5
+2020-10-01 10:10:35: Node ID: 3896; Title: Rund, Ernst (Yaacov)
+2020-10-01 10:11:08: Insert field field_biography with content in database
+2020-10-01 10:11:10: Remaining Nodes: 4
+2020-10-01 10:11:10: Node ID: 3900; Title: Hirsch, Siegfried (Shimon)
+2020-10-01 10:13:43: Insert field field_biography with content in database
+2020-10-01 10:14:02: Remaining Nodes: 3
+2020-10-01 10:14:02: Node ID: 3944; Title: Brachiahu (Borochov), Dr. Mordechai
+2020-10-01 10:18:17: Insert field field_biography with content in database
+2020-10-01 10:18:38: Remaining Nodes: 2
+2020-10-01 10:18:38: Node ID: 1784; Title: Aloni, Jenny (née Rosenbaum)
+2020-10-01 10:21:57: Insert field field_biography with content in database
+2020-10-01 10:22:20: Remaining Nodes: 1
+2020-10-01 10:22:20: Node ID: 1835; Title: Avneri, Bruria (born Heymann, Bertha )
+2020-10-01 10:23:49: Insert field field_biography with content in database
+2020-12-07 14:31:06: Starting NLP Task
+2020-12-07 14:31:06: Copy file /app/export/nodes_export.json to /app/export/nodes_export_process.json
+2020-12-07 14:31:06: Remaining Nodes: 124
+2020-12-07 14:31:06: Node ID: 1214; Title: Wronsky, Siddy (born Neufeld, Sidonie)
+2020-12-07 14:32:45: Insert field field_biography with content in database
+2020-12-07 14:33:05: Remaining Nodes: 123
+2020-12-07 14:33:05: Node ID: 1215; Title: Neufeld, Hertha
+2020-12-07 14:34:54: Insert field field_biography with content in database
+2020-12-07 14:35:09: Remaining Nodes: 122
+2020-12-07 14:35:09: Node ID: 1216; Title: Hoffert-Horani, Dr. Mirjam (born Fassbender, Maria)
+2020-12-07 14:38:40: Insert field field_biography with content in database
+2020-12-07 14:39:08: Remaining Nodes: 121
+2020-12-07 14:39:08: Node ID: 1219; Title: Filene, Dorothy (born Finkelstein, Dorothea (Dora) Henriette)
+2020-12-07 14:39:45: Insert field field_biography with content in database
+2020-12-07 14:39:51: Remaining Nodes: 120
+2020-12-07 14:39:51: Node ID: 1221; Title: Hochmann, Hanna (born Gerson)
+2020-12-07 14:40:38: Insert field field_biography with content in database
+2020-12-07 14:40:44: Remaining Nodes: 119
+2020-12-07 14:40:44: Node ID: 1222; Title: Ragolsky, Dr. Sophia (born Illich/Illch)
+2020-12-07 14:41:47: Insert field field_biography with content in database
+2020-12-07 14:41:54: Remaining Nodes: 118
+2020-12-07 14:41:54: Node ID: 1257; Title: Livneh, Dr. Emmi (Löwenthal, born Strauß)
+2020-12-07 14:42:27: Insert field field_biography with content in database
+2020-12-07 14:42:32: Remaining Nodes: 117
+2020-12-07 14:42:32: Node ID: 1281; Title: Gellner, Hedwig
+2020-12-07 14:44:20: Insert field field_biography with content in database
+2020-12-07 14:44:32: Remaining Nodes: 116
+2020-12-07 14:44:32: Node ID: 1282; Title: Senator, David Werner 
+2020-12-07 14:48:12: Insert field field_biography with content in database
+2020-12-07 14:48:29: Remaining Nodes: 115
+2020-12-07 14:48:29: Node ID: 1284; Title: Lotan, Giora (née Lubinski, Georg)
+2020-12-07 14:53:48: Insert field field_biography with content in database
+2020-12-07 14:54:08: Remaining Nodes: 114
+2020-12-07 14:54:08: Node ID: 1311; Title: Nathan, Thea Else (born Meyerowitz)
+2020-12-07 14:55:06: Insert field field_biography with content in database
+2020-12-07 14:55:14: Remaining Nodes: 113
+2020-12-07 14:55:14: Node ID: 1459; Title: Liberman, Dina
+2020-12-07 14:56:20: Insert field field_biography with content in database
+2020-12-07 14:56:28: Remaining Nodes: 112
+2020-12-07 14:56:28: Node ID: 1517; Title: Bloch, Zipora
+2020-12-07 14:58:01: Insert field field_biography with content in database
+2020-12-07 14:58:13: Remaining Nodes: 111
+2020-12-07 14:58:13: Node ID: 1518; Title: Fränkel-Eliner, Dora
+2020-12-07 15:00:32: Insert field field_biography with content in database
+2020-12-07 15:00:45: Remaining Nodes: 110
+2020-12-07 15:00:45: Node ID: 1519; Title: Ollendorff, Fanny (née Baer)
+2020-12-07 15:03:08: Insert field field_biography with content in database
+2020-12-07 15:03:28: Remaining Nodes: 109
+2020-12-07 15:03:28: Node ID: 1587; Title: Ollendorff, Friedrich
+2020-12-07 15:05:34: Insert field field_biography with content in database
+2020-12-07 15:05:48: Remaining Nodes: 108
+2020-12-07 15:05:48: Node ID: 1588; Title: Barth, Helene (née Baer)
+2020-12-07 15:07:03: Insert field field_biography with content in database
+2020-12-07 15:07:12: Remaining Nodes: 107
+2020-12-07 15:07:12: Node ID: 1589; Title: Lehmann, Siegfried
+2020-12-07 15:08:53: Insert field field_biography with content in database
+2020-12-07 15:09:02: Remaining Nodes: 106
+2020-12-07 15:09:02: Node ID: 1590; Title: Rosenblüth, Zessi
+2020-12-07 15:10:36: Insert field field_biography with content in database
+2020-12-07 15:10:51: Remaining Nodes: 105
+2020-12-07 15:10:51: Node ID: 1591; Title: Schächter, Regina
+2020-12-07 15:13:18: Insert field field_biography with content in database
+2020-12-07 15:13:36: Remaining Nodes: 104
+2020-12-07 15:13:36: Node ID: 1592; Title: Hanf-Weinreich, Frieda
+2020-12-07 15:14:47: Insert field field_biography with content in database
+2020-12-07 15:14:56: Remaining Nodes: 103
+2020-12-07 15:14:56: Node ID: 1593; Title: Hochwald Katz, Hilde (née Hochwald)
+2020-12-07 15:17:31: Insert field field_biography with content in database
+2020-12-07 15:17:49: Remaining Nodes: 102
+2020-12-07 15:17:49: Node ID: 1597; Title: Berger, Beate
+2020-12-07 15:18:38: Insert field field_biography with content in database
+2020-12-07 15:18:46: Remaining Nodes: 101
+2020-12-07 15:18:46: Node ID: 1600; Title: Itzkovitz, Miriam (born Chotory)
+2020-12-07 15:20:34: Insert field field_biography with content in database
+2020-12-07 15:20:46: Remaining Nodes: 100
+2020-12-07 15:20:46: Node ID: 1601; Title: Kraemer-Rosenkranz, Stela
+2020-12-07 15:21:30: Insert field field_biography with content in database
+2020-12-07 15:21:36: Remaining Nodes: 99
+2020-12-07 15:21:36: Node ID: 1602; Title: Eskeles, Paula (born Kronheimer, married name Müller)
+2020-12-07 15:22:16: Insert field field_biography with content in database
+2020-12-07 15:22:20: Remaining Nodes: 98
+2020-12-07 15:22:20: Node ID: 1604; Title: Magnes, Chava (born Danziger)
+2020-12-07 15:23:13: Insert field field_biography with content in database
+2020-12-07 15:23:20: Remaining Nodes: 97
+2020-12-07 15:23:20: Node ID: 1650; Title: Popper Lilli (born Zadek)
+2020-12-07 15:25:15: Insert field field_biography with content in database
+2020-12-07 15:25:30: Remaining Nodes: 96
+2020-12-07 15:25:30: Node ID: 1666; Title: Jarecki, Natalie
+2020-12-07 15:26:45: Insert field field_biography with content in database
+2020-12-07 15:26:52: Remaining Nodes: 95
+2020-12-07 15:26:52: Node ID: 1681; Title: Schattner, Naomi (born Blumfeld, Hilde )
+2020-12-07 15:27:39: Insert field field_biography with content in database
+2020-12-07 15:27:45: Remaining Nodes: 94
+2020-12-07 15:27:45: Node ID: 1700; Title: Stein, Nadia (born Brodsky)
+2020-12-07 15:30:35: Insert field field_biography with content in database
+2020-12-07 15:30:56: Remaining Nodes: 93
+2020-12-07 15:30:56: Node ID: 1701; Title: Ullmann, Hanni (born Risch)
+2020-12-07 15:32:28: Insert field field_biography with content in database
+2020-12-07 15:32:41: Remaining Nodes: 92
+2020-12-07 15:32:41: Node ID: 1702; Title: Rosenthal, Hugo (Jashuvi, Joseph)
+2020-12-07 15:36:55: Insert field field_biography with content in database
+2020-12-07 15:37:15: Remaining Nodes: 91
+2020-12-07 15:37:15: Node ID: 1712; Title: Rosenberg, Dr. Maya 
+2020-12-07 15:38:13: Insert field field_biography with content in database
+2020-12-07 15:38:22: Remaining Nodes: 90
+2020-12-07 15:38:22: Node ID: 1772; Title: Kaphan, Johanna
+2020-12-07 15:39:44: Insert field field_biography with content in database
+2020-12-07 15:39:55: Remaining Nodes: 89
+2020-12-07 15:39:55: Node ID: 1784; Title: Aloni, Jenny (née Rosenbaum)
+2020-12-07 15:43:14: Insert field field_biography with content in database
+2020-12-07 15:43:38: Remaining Nodes: 88
+2020-12-07 15:43:38: Node ID: 1791; Title: Apfelberg/Appelberg, Dr. Esther
+2020-12-07 15:46:24: Insert field field_biography with content in database
+2020-12-07 15:46:48: Remaining Nodes: 87
+2020-12-07 15:46:48: Node ID: 1835; Title: Avneri, Bruria (born Heymann, Bertha )
+2020-12-07 15:48:18: Insert field field_biography with content in database
+2020-12-07 15:48:30: Remaining Nodes: 86
+2020-12-07 15:48:30: Node ID: 1848; Title: Barak (Brock), Ruth (born Rosenthal)
+2020-12-07 15:49:00: Insert field field_biography with content in database
+2020-12-07 15:49:03: Remaining Nodes: 85
+2020-12-07 15:49:03: Node ID: 1871; Title: Bergman, Elisabeth (Lisbeth/Elisheva) born Altman))
+2020-12-07 15:49:38: Insert field field_biography with content in database
+2020-12-07 15:49:43: Remaining Nodes: 84
+2020-12-07 15:49:43: Node ID: 1876; Title: Bergmann, Dr. Emmy Mirjam (born Gruenwald)
+2020-12-07 15:50:34: Insert field field_biography with content in database
+2020-12-07 15:50:41: Remaining Nodes: 83
+2020-12-07 15:50:41: Node ID: 1902; Title: Blank, Gertrud Sara
+2020-12-07 15:52:43: Insert field field_biography with content in database
+2020-12-07 15:52:58: Remaining Nodes: 82
+2020-12-07 15:52:58: Node ID: 1928; Title: Levy-Zobel, Lucy (born Zobel)
+2020-12-07 15:54:04: Insert field field_biography with content in database
+2020-12-07 15:54:11: Remaining Nodes: 81
+2020-12-07 15:54:11: Node ID: 1935; Title: Boritzer, Regina 
+2020-12-07 15:55:45: Insert field field_biography with content in database
+2020-12-07 15:55:55: Remaining Nodes: 80
+2020-12-07 15:55:55: Node ID: 1968; Title: Britschgi-Schimmer, Dr. Ina 
+2020-12-07 15:58:21: Insert field field_biography with content in database
+2020-12-07 15:58:44: Remaining Nodes: 79
+2020-12-07 15:58:44: Node ID: 1990; Title: Chayuth, Zvia (born Glick)
+2020-12-07 16:00:23: Insert field field_biography with content in database
+2020-12-07 16:00:34: Remaining Nodes: 78
+2020-12-07 16:00:34: Node ID: 2005; Title: Cohn, Else
+2020-12-07 16:01:40: Insert field field_biography with content in database
+2020-12-07 16:01:50: Remaining Nodes: 77
+2020-12-07 16:01:50: Node ID: 2007; Title: Cohn, Eva
+2020-12-07 16:04:10: Insert field field_biography with content in database
+2020-12-07 16:04:29: Remaining Nodes: 76
+2020-12-07 16:04:29: Node ID: 2038; Title: Shifman, Vera (Eva) (née Pulvermacher)
+2020-12-07 16:05:59: Insert field field_biography with content in database
+2020-12-07 16:06:07: Remaining Nodes: 75
+2020-12-07 16:06:07: Node ID: 2063; Title: Dajan, Yehudith (born Edith Sachs)
+2020-12-07 16:06:49: Insert field field_biography with content in database
+2020-12-07 16:06:54: Remaining Nodes: 74
+2020-12-07 16:06:54: Node ID: 2081; Title: Danelius, Dr. Eva 
+2020-12-07 16:08:19: Insert field field_biography with content in database
+2020-12-07 16:08:30: Remaining Nodes: 73
+2020-12-07 16:08:30: Node ID: 2103; Title: Dukas, Dr. Rosa
+2020-12-07 16:09:48: Insert field field_biography with content in database
+2020-12-07 16:09:58: Remaining Nodes: 72
+2020-12-07 16:09:58: Node ID: 2172; Title: Ellern, Recha (Rachel)
+2020-12-07 16:11:15: Insert field field_biography with content in database
+2020-12-07 16:11:25: Remaining Nodes: 71
+2020-12-07 16:11:25: Node ID: 2197; Title: Landauer, Georg
+2020-12-07 16:13:17: Insert field field_biography with content in database
+2020-12-07 16:13:28: Remaining Nodes: 70
+2020-12-07 16:13:28: Node ID: 2221; Title: Kreutzberger, Dr. Max
+2020-12-07 16:14:29: Insert field field_biography with content in database
+2020-12-07 16:14:34: Remaining Nodes: 69
+2020-12-07 16:14:34: Node ID: 2244; Title: Feuchtwanger-Steinitz, Anna 
+2020-12-07 16:15:00: Insert field field_biography with content in database
+2020-12-07 16:15:03: Remaining Nodes: 68
+2020-12-07 16:15:03: Node ID: 2254; Title: Freund, Hilde 
+2020-12-07 16:15:23: Insert field field_biography with content in database
+2020-12-07 16:15:26: Remaining Nodes: 67
+2020-12-07 16:15:26: Node ID: 2256; Title: Freund, Lea (née Tachauer, married Fürst)
+2020-12-07 16:17:25: Insert field field_biography with content in database
+2020-12-07 16:17:41: Remaining Nodes: 66
+2020-12-07 16:17:41: Node ID: 2325; Title: Michaelis-Stern, Eva (born Stern)
+2020-12-07 16:21:25: Problem occured during extraction. Maybe restart stanford core nlp. Message: HTTPConnectionPool(host='corenlp', port=9000): Read timed out. (read timeout=120)
+2020-12-07 16:21:25: Remaining Nodes: 65
+2020-12-07 16:21:25: Node ID: 2326; Title: Gaster, Irene 
+2020-12-07 16:23:31: Insert field field_biography with content in database
+2020-12-07 16:23:48: Remaining Nodes: 64
+2020-12-07 16:23:48: Node ID: 2366; Title: Isserlin, Margarete
+2020-12-07 16:24:10: Insert field field_biography with content in database
+2020-12-07 16:24:12: Remaining Nodes: 63
+2020-12-07 16:24:12: Node ID: 2367; Title: Samuelsdorf, Dr. Anni (born Weinreich)
+2020-12-07 16:24:59: Insert field field_biography with content in database
+2020-12-07 16:25:05: Remaining Nodes: 62
+2020-12-07 16:25:05: Node ID: 2368; Title: Ilanit, Fayge (born Hindes)
+2020-12-07 16:26:35: Insert field field_biography with content in database
+2020-12-07 16:26:45: Remaining Nodes: 61
+2020-12-07 16:26:45: Node ID: 2414; Title: Jacobi, Grete (born Rabow)
+2020-12-07 16:28:02: Insert field field_biography with content in database
+2020-12-07 16:28:11: Remaining Nodes: 60
+2020-12-07 16:28:11: Node ID: 2433; Title: Jaffe, Dr. Ruth 
+2020-12-07 16:31:17: Insert field field_biography with content in database
+2020-12-07 16:31:41: Remaining Nodes: 59
+2020-12-07 16:31:41: Node ID: 2465; Title: Kalinhoff, Gabriele (born Feuchtwanger)
+2020-12-07 16:33:15: Insert field field_biography with content in database
+2020-12-07 16:33:25: Remaining Nodes: 58
+2020-12-07 16:33:25: Node ID: 2511; Title: Katz, Liselotte 
+2020-12-07 16:34:34: Insert field field_biography with content in database
+2020-12-07 16:34:43: Remaining Nodes: 57
+2020-12-07 16:34:43: Node ID: 2532; Title: Katzenstein, Jenny 
+2020-12-07 16:35:46: Insert field field_biography with content in database
+2020-12-07 16:35:53: Remaining Nodes: 56
+2020-12-07 16:35:53: Node ID: 2552; Title: Keren, Miriam (born Marianne Mayer)
+2020-12-07 16:37:49: Insert field field_biography with content in database
+2020-12-07 16:38:04: Remaining Nodes: 55
+2020-12-07 16:38:04: Node ID: 2596; Title: Hirsch, Hannah (née Krayn)
+2020-12-07 16:40:39: Insert field field_biography with content in database
+2020-12-07 16:40:56: Remaining Nodes: 54
+2020-12-07 16:40:56: Node ID: 2628; Title: Landau-Mühsam, Charlotte (born Mühsam)
+2020-12-07 16:43:01: Insert field field_biography with content in database
+2020-12-07 16:43:18: Remaining Nodes: 53
+2020-12-07 16:43:18: Node ID: 2648; Title: Levi-Altman, Margot (born Altman)
+2020-12-07 16:45:25: Insert field field_biography with content in database
+2020-12-07 16:45:42: Remaining Nodes: 52
+2020-12-07 16:45:42: Node ID: 2696; Title: Lewin, Mirjam (born Levy)
+2020-12-07 16:47:06: Insert field field_biography with content in database
+2020-12-07 16:47:17: Remaining Nodes: 51
+2020-12-07 16:47:17: Node ID: 2716; Title: Lewin, Yehudith (born Margolin)
+2020-12-07 16:48:09: Insert field field_biography with content in database
+2020-12-07 16:48:16: Remaining Nodes: 50
+2020-12-07 16:48:16: Node ID: 2759; Title: Lowitsch, Mirjam (born Margolinski)
+2020-12-07 16:49:52: Insert field field_biography with content in database
+2020-12-07 16:50:04: Remaining Nodes: 49
+2020-12-07 16:50:04: Node ID: 2790; Title: Mainz, Bertha 
+2020-12-07 16:51:03: Insert field field_biography with content in database
+2020-12-07 16:51:11: Remaining Nodes: 48
+2020-12-07 16:51:11: Node ID: 2808; Title: Mamout, Gisela (born Rigelhoft)
+2020-12-07 16:51:41: Insert field field_biography with content in database
+2020-12-07 16:51:45: Remaining Nodes: 47
+2020-12-07 16:51:45: Node ID: 2817; Title: Maor, Gila  (born Reifen)
+2020-12-07 16:52:57: Insert field field_biography with content in database
+2020-12-07 16:53:09: Remaining Nodes: 46
+2020-12-07 16:53:09: Node ID: 2820; Title: Meyer, Käthe 
+2020-12-07 16:54:16: Insert field field_biography with content in database
+2020-12-07 16:54:24: Remaining Nodes: 45
+2020-12-07 16:54:24: Node ID: 2861; Title: Müller-Cohen, Anitta (born Rosenzweig)
+2020-12-07 16:56:50: Insert field field_biography with content in database
+2020-12-07 16:57:10: Remaining Nodes: 44
+2020-12-07 16:57:10: Node ID: 2887; Title: Nahmani, Irene (born Fried)
+2020-12-07 16:57:45: Insert field field_biography with content in database
+2020-12-07 16:57:49: Remaining Nodes: 43
+2020-12-07 16:57:49: Node ID: 2897; Title: Nathan, Else 
+2020-12-07 17:00:42: Insert field field_biography with content in database
+2020-12-07 17:01:04: Remaining Nodes: 42
+2020-12-07 17:01:04: Node ID: 2917; Title: Neumark, Irma 
+2020-12-07 17:01:42: Insert field field_biography with content in database
+2020-12-07 17:01:46: Remaining Nodes: 41
+2020-12-07 17:01:46: Node ID: 2937; Title: Ochs, Gerda (born Rau)
+2020-12-07 17:04:22: Insert field field_biography with content in database
+2020-12-07 17:04:46: Remaining Nodes: 40
+2020-12-07 17:04:46: Node ID: 2961; Title: Lotan, Hilde (Born Cohn, Hildegard)
+2020-12-07 17:06:28: Insert field field_biography with content in database
+2020-12-07 17:06:42: Remaining Nodes: 39
+2020-12-07 17:06:42: Node ID: 2985; Title: Pinkhof, Sophie 
+2020-12-07 17:07:41: Insert field field_biography with content in database
+2020-12-07 17:07:51: Remaining Nodes: 38
+2020-12-07 17:07:51: Node ID: 3019; Title: Preuss-Porat, Bella (born Hamburger)
+2020-12-07 17:08:51: Insert field field_biography with content in database
+2020-12-07 17:08:58: Remaining Nodes: 37
+2020-12-07 17:08:58: Node ID: 3048; Title: Roos, Leah 
+2020-12-07 17:09:51: Insert field field_biography with content in database
+2020-12-07 17:09:58: Remaining Nodes: 36
+2020-12-07 17:09:58: Node ID: 3074; Title: Rosenstein, Mirjam (born Rosenblum, married names Warszawski, Wolff)
+2020-12-07 17:11:28: Insert field field_biography with content in database
+2020-12-07 17:11:37: Remaining Nodes: 35
+2020-12-07 17:11:37: Node ID: 3094; Title: Rosenthal, Ruth (born Hirsch)
+2020-12-07 17:12:16: Insert field field_biography with content in database
+2020-12-07 17:12:21: Remaining Nodes: 34
+2020-12-07 17:12:21: Node ID: 3145; Title: Schlesinger, Dr. Bella (née Olkanizki)
+2020-12-07 17:13:45: Insert field field_biography with content in database
+2020-12-07 17:13:53: Remaining Nodes: 33
+2020-12-07 17:13:53: Node ID: 3167; Title: Schreiber, Lina
+2020-12-07 17:14:36: Insert field field_biography with content in database
+2020-12-07 17:14:41: Remaining Nodes: 32
+2020-12-07 17:14:41: Node ID: 3180; Title: Shapiro, Ellen (born Oppenheim)
+2020-12-07 17:15:20: Insert field field_biography with content in database
+2020-12-07 17:15:24: Remaining Nodes: 31
+2020-12-07 17:15:24: Node ID: 3189; Title: Stern, Ilse 
+2020-12-07 17:18:16: Insert field field_biography with content in database
+2020-12-07 17:18:41: Remaining Nodes: 30
+2020-12-07 17:18:41: Node ID: 3232; Title: Sternberg, Elsa (born Else Rosenblüth)
+2020-12-07 17:19:54: Insert field field_biography with content in database
+2020-12-07 17:20:02: Remaining Nodes: 29
+2020-12-07 17:20:02: Node ID: 3247; Title: Stern-Horowitz, Etschi (born Stern)
+2020-12-07 17:20:25: Insert field field_biography with content in database
+2020-12-07 17:20:28: Remaining Nodes: 28
+2020-12-07 17:20:28: Node ID: 3253; Title: Straus, Rahel (born Goitein)
+2020-12-07 17:23:36: Insert field field_biography with content in database
+2020-12-07 17:24:02: Remaining Nodes: 27
+2020-12-07 17:24:02: Node ID: 3254; Title: Strauss-Weigert, Dr Dora (born Weigert)
+2020-12-07 17:24:36: Insert field field_biography with content in database
+2020-12-07 17:24:40: Remaining Nodes: 26
+2020-12-07 17:24:40: Node ID: 3280; Title: Szwedron, Genia 
+2020-12-07 17:25:11: Insert field field_biography with content in database
+2020-12-07 17:25:15: Remaining Nodes: 25
+2020-12-07 17:25:15: Node ID: 3300; Title: Tanne, Clara (born Horwitz)
+2020-12-07 17:26:03: Insert field field_biography with content in database
+2020-12-07 17:26:09: Remaining Nodes: 24
+2020-12-07 17:26:09: Node ID: 3324; Title: Tchernovitz-Avidar, Yemima (born Tchernovitz)
+2020-12-07 17:28:14: Insert field field_biography with content in database
+2020-12-07 17:28:23: Remaining Nodes: 23
+2020-12-07 17:28:23: Node ID: 3339; Title: Thon, Hannah Helena (born (Cohn)
+2020-12-07 17:30:45: Insert field field_biography with content in database
+2020-12-07 17:31:00: Remaining Nodes: 22
+2020-12-07 17:31:00: Node ID: 3340; Title: Turnowsky-Pinner, Margarete (born Pinner)
+2020-12-07 17:32:44: Insert field field_biography with content in database
+2020-12-07 17:32:55: Remaining Nodes: 21
+2020-12-07 17:32:55: Node ID: 3371; Title: Twersky, Jenya (born Ginzburg)
+2020-12-07 17:33:47: Insert field field_biography with content in database
+2020-12-07 17:33:52: Remaining Nodes: 20
+2020-12-07 17:33:52: Node ID: 3382; Title: Unger, Eva (born Warburg)
+2020-12-07 17:36:08: Insert field field_biography with content in database
+2020-12-07 17:36:22: Remaining Nodes: 19
+2020-12-07 17:36:22: Node ID: 3417; Title: Wagner-Tauber, Lina (née Tauber)
+2020-12-07 17:40:07: Insert field field_biography with content in database
+2020-12-07 17:40:20: Remaining Nodes: 18
+2020-12-07 17:40:20: Node ID: 3432; Title: Jonas, Benjamin 
+2020-12-07 17:44:22: Insert field field_biography with content in database
+2020-12-07 17:44:44: Remaining Nodes: 17
+2020-12-07 17:44:44: Node ID: 3458; Title: Zirker, Dora 
+2020-12-07 17:46:04: Insert field field_biography with content in database
+2020-12-07 17:46:10: Remaining Nodes: 16
+2020-12-07 17:46:10: Node ID: 3471; Title: Ziemles, Mirjam (born Nachmanzon)
+2020-12-07 17:46:57: Insert field field_biography with content in database
+2020-12-07 17:47:00: Remaining Nodes: 15
+2020-12-07 17:47:00: Node ID: 3488; Title: Ish-Tov Livnat, Jehudith (née Hertha Löwenthal)
+2020-12-07 17:49:42: Insert field field_biography with content in database
+2020-12-07 17:50:09: Remaining Nodes: 14
+2020-12-07 17:50:09: Node ID: 3566; Title: Weihl, Elisheva (née Elisabeth Frank)
+2020-12-07 17:51:23: Insert field field_biography with content in database
+2020-12-07 17:51:30: Remaining Nodes: 13
+2020-12-07 17:51:30: Node ID: 3585; Title: Rosolio, Pnina Ezeria (née Wiener, Paula)
+2020-12-07 17:53:22: Insert field field_biography with content in database
+2020-12-07 17:53:28: Remaining Nodes: 12
+2020-12-07 17:53:28: Node ID: 3618; Title: Lichtenstein, Paula Ruth
+2020-12-07 17:55:07: Insert field field_biography with content in database
+2020-12-07 17:55:18: Remaining Nodes: 11
+2020-12-07 17:55:18: Node ID: 3654; Title: Bolag, Alisa (Elisa)
+2020-12-07 17:56:58: Insert field field_biography with content in database
+2020-12-07 17:57:06: Remaining Nodes: 10
+2020-12-07 17:57:06: Node ID: 3674; Title: Neter, Mia (Minka) (née Thalmann)
+2020-12-07 17:59:32: Insert field field_biography with content in database
+2020-12-07 17:59:44: Remaining Nodes: 9
+2020-12-07 17:59:44: Node ID: 3793; Title: Schupler, Zwi
+2020-12-07 18:01:57: Insert field field_biography with content in database
+2020-12-07 18:02:10: Remaining Nodes: 8
+2020-12-07 18:02:10: Node ID: 3811; Title: Rothschild, Dr. Leopold Jehuda
+2020-12-07 18:03:35: Insert field field_biography with content in database
+2020-12-07 18:03:41: Remaining Nodes: 7
+2020-12-07 18:03:41: Node ID: 3825; Title: Ostfeld, Zvi Hermon (Hermann)
+2020-12-07 18:06:13: Insert field field_biography with content in database
+2020-12-07 18:06:31: Remaining Nodes: 6
+2020-12-07 18:06:31: Node ID: 3844; Title: Frankenstein, Carl (Karl)
+2020-12-07 18:08:26: Insert field field_biography with content in database
+2020-12-07 18:08:42: Remaining Nodes: 5
+2020-12-07 18:08:42: Node ID: 3857; Title: Rothschild, Siegfried (Pinchas)
+2020-12-07 18:10:33: Insert field field_biography with content in database
+2020-12-07 18:10:45: Remaining Nodes: 4
+2020-12-07 18:10:45: Node ID: 3884; Title: Franz Hainbach/Heinebach (Perez Uriel)
+2020-12-07 18:12:03: Insert field field_biography with content in database
+2020-12-07 18:12:08: Remaining Nodes: 3
+2020-12-07 18:12:08: Node ID: 3896; Title: Rund, Ernst (Yaacov)
+2020-12-07 18:12:42: Insert field field_biography with content in database
+2020-12-07 18:12:45: Remaining Nodes: 2
+2020-12-07 18:12:45: Node ID: 3900; Title: Hirsch, Siegfried (Shimon)
+2020-12-07 18:15:15: Insert field field_biography with content in database
+2020-12-07 18:15:34: Remaining Nodes: 1
+2020-12-07 18:15:34: Node ID: 3944; Title: Brachiahu (Borochov), Dr. Mordechai
+2020-12-07 18:19:54: Insert field field_biography with content in database

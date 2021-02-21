@@ -1,0 +1,23 @@
+nlpsearch_basic:
+  version: 1.x
+  css:
+    component:
+      css/nlpsearch.css: {preprocess: false}
+  js:
+    js/nlpsearch.js: {preprocess: false}
+  dependencies:
+    - core/jquery
+    - core/drupalSettings
+
+nlpsearch_vis:
+  version: 1.x
+  css:
+    component:
+      css/vis-network.min.css: {preprocess: false}
+      css/nlpsearch.css: {preprocess: false}
+  js:
+    js/vis.js: {preprocess: false}
+    js/vis_load.js: {preprocess: false}
+  dependencies:
+    - core/jquery
+    - core/drupalSettings

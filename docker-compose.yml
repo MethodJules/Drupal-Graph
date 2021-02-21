@@ -1,0 +1,48 @@
+version: '3'
+services:
+    neo4j:
+        image: neo4j:4.0.3
+        ports:
+            - "7474:7474"
+            - "7687:7687"
+        volumes:
+          - ./neo4j/data:/data
+          - ./neo4j/logs:/logs
+          - ./neo4j/import/:/var/lib/neo4j/import
+          - ./neo4j/plugins:/plugins
+        environment:
+          - NEO4J_AUTH=neo4j/test
+          - NEO4J_dbms_default__listen__address=neo4j
+          - NEO4J_dbms_default__advertised__address=neo4j
+          - NEO4J_dbms_connector_bolt_listen__address=neo4j:7687
+          - NEO4J_dbms_connector_http_listen__address=neo4j:7474
+    python:
+        build: ./python
+        volumes:
+          - ./python:/app
+        labels:
+          - "traefik.enable=true"
+          - "traefik.http.routers.python.entrypoints=http"
+          - "traefik.http.routers.python.rule=Host(`ENTER HERE YOUR DOMAIN`)"
+          - "traefik.http.middlewares.python-https-redirect.redirectscheme.scheme=https"
+          - "traefik.http.routers.python.middlewares=python-https-redirect"
+          - "traefik.http.routers.python-secure.entrypoints=https"
+          - "traefik.http.routers.python-secure.rule=Host(`ENTER HERE YOUR DOMAIN`)"
+          - "traefik.http.routers.python-secure.tls=true"
+          - "traefik.http.routers.python-secure.tls.certresolver=http"
+          - "traefik.http.routers.python-secure.service=python"
+          - "traefik.http.services.python.loadbalancer.server.port=5000"
+          - "traefik.docker.network=proxy"
+        depends_on:
+          - neo4j
+          - corenlp
+        networks:
+          - proxy
+          - default
+    corenlp:
+        image: graham3333/corenlp-complete
+        ports:
+          - "9000:9000"
+networks:
+  proxy:
+    external: true

@@ -1,0 +1,1 @@
+{"similarity_score":"0.8","neo4j_url":"bolt://neo4j:7687","neo4j_user":"USER","corenlp_url":"http://corenlp","corenlp_port":"9000","neo4j_password":"PASSWORD"}

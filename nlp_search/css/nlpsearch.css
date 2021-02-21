@@ -1,0 +1,72 @@
+.entity-select, .entity-detail-select, .rel-select {
+    margin-bottom: 10px;
+}
+
+.entity-detail-select {
+    margin-left: 10px;
+}
+
+.left-box, .right-box {
+    display: inline;
+}
+
+.arrow-sep {
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 32px;
+    height: 16px;
+}
+
+#nlpsearch-filter-box:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.entity-remove {
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+    margin-left: 10px;
+    background: url("./remove-icon.png");
+    background-repeat: no-repeat;
+    -webkit-background-size: 16px 16px;
+    background-size: 16px 16px;
+    border: none;
+}
+
+.entity-remove:focus {outline:0;}
+
+.filter-title {
+    font-weight: bold;
+    font-size: 0.929em;
+}
+
+.nlp-search-results {
+    list-style: none;
+    padding: 0;
+}
+
+.nlp-search-results li {
+    border-bottom: 1px solid #d3d7d9;
+    padding-bottom: 0.4285em;
+    margin-bottom: 0.5em;
+}
+
+.nlp-search-result-title {
+    font-weight: bold;
+}
+
+.nlp-search-results-snippet-info {
+    padding-left: 0;
+}
+
+.nlp-search-result-snippet span {
+    display: block;
+}
+
+#nlp-network-graph {
+    height: 600px;
+    border: 1px solid #444444;
+    margin-bottom: 10px;
+}

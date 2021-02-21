@@ -1,0 +1,12 @@
+nlp_search.admin:
+  title: 'NLP Search settings'
+  description: 'Configuration for module NLP Search'
+  parent: system.admin_config_search
+  route_name: nlp_search.settings_form
+  weight: 100
+
+nlp_search.main_menu:
+  title: 'Search'
+  description: 'Use semantic search'
+  route_name: nlp_search.search_form
+  menu_name: main

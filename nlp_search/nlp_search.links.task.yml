@@ -1,0 +1,11 @@
+nlp_search.edit_entities_form:
+  route_name: nlp_search.edit_entities_form
+  title: 'Edit Entities'
+  base_route: entity.node.canonical
+  weight: 100
+
+nlp_search.add_entity_form:
+  route_name: nlp_search.add_entity_form
+  title: 'Add Entity'
+  base_route: entity.node.canonical
+  weight: 100

@@ -1,0 +1,2 @@
+Das Archiv herunterladen und den Inhalt von clausie_lib in diesen Ordner kopieren:
+http://resources.mpi-inf.mpg.de/d5/clausie/clausie-0-0-1.zip
