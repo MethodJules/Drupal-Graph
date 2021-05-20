@@ -1,4 +1,4 @@
-# Jigsaw.Graph Architecture #
+# Drupal.Graph Architecture #
 
 This repository serves as a starting point if you want to integrate a knowledge graph into your community portal which is based on
 the CMS Drupal.
